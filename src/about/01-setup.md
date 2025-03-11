@@ -31,6 +31,8 @@ To run the website on your computer, you'll also need:
 
 - [Docker Desktop)](https://www.docker.com/products/docker-desktop/): A tool that automatically sets up everything needed to build and view the website on your device.
 
+Note: Docker Desktop requires CPU virtualisation to be enabled. Consult the manual of your motherboard if it is disabled.
+
 _Additional step for Windows users:_
 
 - [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/install): A feature that helps Windows computers run the necessary tools for the website.
@@ -41,7 +43,7 @@ These tools are optional but can make editing the website easier:
 
 - [Visual Studio Code](https://code.visualstudio.com/): A user-friendly text editor that makes it easier to work with website files.
 
-## Installing on Ubuntu
+## Optional - Installing on Ubuntu
 
 Installing software on Linux is sometimes trivial and sometimes... heartbreaking. If you're a Linux user and you're stuck then here's some help. We assume that you use the Ubuntu distribution.
 
