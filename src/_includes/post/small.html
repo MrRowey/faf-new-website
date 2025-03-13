@@ -24,16 +24,14 @@
     </div>
 
     <div class="post-small-text-container">
+      <a class="post-small-link" href="{{ include.post.url | relative_url }}">
       <div class="post-small-text-body-container">
         <div class="post-small-header">
-          <h3 class="post-small-title">     
-            <a class="post-small-link" href="{{ include.post.url | relative_url }}">
+            <h3 class="post-small-title">     
               {{ include.post.title | escape }}    
-            </a>
-          </h3>
+            </h3> 
+            </div>
 
-          {% include components/url-button.html href=include.post.redirectURL %}
-        </div>
 
         {% comment %}
           We can only support so many characters in the overview, therefore we truncate it.
@@ -43,6 +41,7 @@
           {{ include.post.excerpt | strip_html | truncate: 400 }} 
         </p>
       </div>
+      </a>
     </div>
   </div>
 

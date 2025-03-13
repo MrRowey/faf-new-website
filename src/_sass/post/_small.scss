@@ -53,6 +53,11 @@ padding: 1em;
 }
 
 .post-small-link {
+  color: var(--minima-text-color);
+
+  &:visited {
+    color: var(--minima-text-color);
+  }
 }
 
 .post-small-header {
